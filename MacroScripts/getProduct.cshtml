@@ -1,0 +1,33 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+@* The fun starts here *@
+
+
+        @{
+            var counter = 0;
+            foreach (var item in Model.ChildrenAsList){
+               
+                if (counter % 3 == 0){
+                    @Html.Raw("</div><div class=\"row-fluid\">")
+                }
+			
+                <div class="@(item.Name) span4 products">
+                    <a href="@item.Url">
+                        <h2>@item.Name</h2>
+                    </a>
+                    <a class="product-catelog-item-hover" href="@item.url">Læs mere</a>
+                </div>
+                counter++;
+            }
+        }

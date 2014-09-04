@@ -1,0 +1,51 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+@* The fun starts here *@
+
+<div class="col-md-8 col-sm-12 leftCol">
+    <div class="col-md-6 leftColImg">
+        @{
+            var imgSrc = Library.MediaById(@Model.GetProperty("bigspotboximg").Value).umbracoFile;
+            <img src="@imgSrc" />
+ }
+    </div>
+    <div class="col-md-6">
+        @Model.bigspotboxtext
+    </div>
+
+</div>
+<div class="col-md-4 col-sm-12">
+    <div class="row">
+        <div class="col-md-5">
+            @{
+                var imgSrc2 = Library.MediaById(@Model.GetProperty("smallspotboxfirstimg").Value).umbracoFile;
+                <img width="100%" src="@imgSrc2" />
+            }
+        </div>
+        <div class="col-md-7">
+            @Model.smallspotboxfirsttext
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            @{
+                var imgSrc3 = Library.MediaById(@Model.GetProperty("smallspotboxsecondimg").Value).umbracoFile;
+                <img width="100%" src="@imgSrc3" />
+            }
+        </div>
+        <div class="col-md-7">
+            @Model.SmallSpotBoxSecondText
+        </div>
+    </div>
+</div>

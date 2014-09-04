@@ -1,0 +1,516 @@
+﻿2014-08-07 18:31:02,868 [15] INFO  umbraco.BusinessLogic.Log - [Thread 29] Log scrubbed.  Removed all items older than 2014-06-08 18:31:02
+2014-08-07 23:29:40,137 [15] INFO  umbraco.BusinessLogic.Log - [Thread 77] Log scrubbed.  Removed all items older than 2014-06-08 23:29:40
+2014-08-07 23:29:40,137 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 77] Application shutdown. Reason: HostingEnvironment
+2014-08-25 13:32:01,528 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Determining hash of code files on disk
+2014-08-25 13:32:01,544 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Hash determined (took 4ms)
+2014-08-25 13:32:01,544 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-25 13:32:01,747 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 197ms)
+2014-08-25 13:32:01,794 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-25 13:32:01,810 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2014-08-25 13:32:01,810 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-08-25 13:32:01,810 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 4ms)
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 3ms)
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 3ms)
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-08-25 13:32:01,825 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-25 13:32:01,841 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-08-25 13:32:02,403 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-25 13:32:02,419 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2014-08-25 13:32:02,450 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 13:32:02,450 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 4ms)
+2014-08-25 13:32:02,450 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Starting resolution types of umbraco.interfaces.ITree
+2014-08-25 13:32:02,466 [67] INFO  Umbraco.Core.PluginManager - [Thread 95] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 5ms)
+2014-08-25 13:32:02,466 [67] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 95] Initializing Examine and binding to business logic events
+2014-08-25 13:32:02,575 [67] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 95] Adding examine event handlers for index providers: 3
+2014-08-25 13:32:02,810 [67] INFO  umbraco.content - [Thread 132] Loading content from disk cache...
+2014-08-25 13:32:02,872 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-25 13:32:02,872 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 5ms)
+2014-08-25 13:32:03,075 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-08-25 13:32:03,075 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 11ms)
+2014-08-25 13:32:04,153 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-25 13:32:04,153 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2014-08-25 13:32:04,575 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-25 13:32:04,591 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 14ms)
+2014-08-25 13:32:04,591 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of umbraco.interfaces.ITree
+2014-08-25 13:32:04,606 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 6ms)
+2014-08-25 13:32:04,638 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-25 13:32:04,638 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 4ms)
+2014-08-25 13:32:05,716 [67] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - [Thread 132] A legacy GUID id was generated for property editor Umbraco.MultipleMediaPicker. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+2014-08-25 13:32:27,044 [67] INFO  Umbraco.Web.Security.WebSecurity - [Thread 110] User Id: 0 logged in
+2014-08-25 13:32:27,138 [67] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 13:32:27,138 [67] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 13:32:41,732 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-25 13:32:41,747 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 8ms)
+2014-08-25 13:38:17,435 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Garanti Rengøring' with Id '1054' has been published.
+2014-08-25 13:38:25,810 [67] WARN  umbraco.macro - [Thread 43] Error loading MacroEngine script (file: getLogo.cshtml, Type: ''. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.umbraco.presentation.CompatibilityHelper.ConvertedNode.get_Url()
+   at umbraco.MacroEngines.DynamicBackingItem.get_Url()
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_macroScripts_getLogo_cshtml.Execute() in d:\web\localuser\mcreutzberg.dk\GR\MacroScripts\getLogo.cshtml:line 18
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-25 13:38:29,342 [67] WARN  umbraco.macro - [Thread 130] Error loading MacroEngine script (file: getLogo.cshtml, Type: ''. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.umbraco.presentation.CompatibilityHelper.ConvertedNode.get_Url()
+   at umbraco.MacroEngines.DynamicBackingItem.get_Url()
+   at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_macroScripts_getLogo_cshtml.Execute() in d:\web\localuser\mcreutzberg.dk\GR\MacroScripts\getLogo.cshtml:line 18
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-25 13:38:46,326 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 110] Content 'Forside' with Id '1059' has been published.
+2014-08-25 13:38:48,279 [67] WARN  umbraco.macro - [Thread 39] Error loading MacroEngine script (file: getLogo.cshtml, Type: ''. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.umbraco.presentation.CompatibilityHelper.ConvertedNode.get_Url()
+   at umbraco.MacroEngines.DynamicBackingItem.get_Url()
+   at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_macroScripts_getLogo_cshtml.Execute() in d:\web\localuser\mcreutzberg.dk\GR\MacroScripts\getLogo.cshtml:line 18
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-25 13:39:00,857 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content 'Garanti Rengøring' with Id '1054' has been published.
+2014-08-25 13:40:46,092 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Stand up typer' with Id '1073' has been unpublished.
+2014-08-25 13:40:46,217 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Stand-up på engelsk' with Id '1089' has been unpublished.
+2014-08-25 13:40:46,233 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Målrettet stand-up' with Id '1088' has been unpublished.
+2014-08-25 13:40:46,264 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Improcomedy' with Id '1087' has been unpublished.
+2014-08-25 13:40:46,295 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Stand-up med trylleri' with Id '1086' has been unpublished.
+2014-08-25 13:40:46,326 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Stand-up med musik' with Id '1077' has been unpublished.
+2014-08-25 13:40:46,342 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Klassisk stand-up' with Id '1076' has been unpublished.
+2014-08-25 13:40:52,998 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Efter booking' with Id '1075' has been unpublished.
+2014-08-25 13:41:06,123 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Før booking' with Id '1074' has been unpublished.
+2014-08-25 13:41:23,811 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 122] Content 'Profil' with Id '1060' has been published.
+2014-08-25 13:49:28,468 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 110] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Encountered end tag "html" with no matching start tag.  Are your start/end tags properly balanced?
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 13:49:39,249 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 130] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Encountered end tag "html" with no matching start tag.  Are your start/end tags properly balanced?
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreatePageFromVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, DisplayModeProvider displayModeProvider, IDisplayMode displayMode)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 13:51:34,999 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:04:38,907 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 110] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:04:52,423 [67] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:04:52,423 [67] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:04:55,282 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:05:37,892 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:05:42,064 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:08:16,111 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:08:59,033 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 122] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:10:00,548 [67] WARN  umbraco.macro - [Thread 39] Error loading MacroEngine script (file: getFrontpageAtmospherePicture.cshtml, Type: ''. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at umbraco.MacroEngines.RazorMacroEngine.CompileAndInstantiate(String virtualPath)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-25 14:10:21,205 [67] WARN  umbraco.macro - [Thread 110] Error loading MacroEngine script (file: getFrontpageAtmospherePicture.cshtml, Type: ''. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at umbraco.MacroEngines.RazorMacroEngine.CompileAndInstantiate(String virtualPath)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-25 14:11:01,455 [67] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-08-25 14:11:01,455 [67] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2014-08-25 14:11:01,455 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 43] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:11:01,845 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 39] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:11:05,658 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:11:06,392 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 107] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:11:07,845 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 130] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:11:08,424 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 43] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:11:09,299 [67] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 132] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\web\localuser\mcreutzberg.dk\GR\usercontrols'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at umbraco.cms.presentation.developer.editMacro.PopulateUserControls(String path)
+   at umbraco.cms.presentation.developer.editMacro.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
+   at Umbraco.Web.UI.Umbraco.Developer.Macros.EditMacro.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_macros_editmacro_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-25 14:15:36,221 [67] INFO  umbraco.content - [Thread 40] Loading content from database...
+2014-08-25 14:15:38,440 [67] INFO  umbraco.content - [Thread 39] Loading content from database...
+2014-08-25 14:18:21,831 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:18:44,299 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:18:44,299 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:18:46,971 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:19:27,643 [67] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:19:27,643 [67] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:19:39,706 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:19:48,909 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 131] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:19:55,628 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:20:10,940 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 110] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:20:47,534 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:20:58,972 [67] INFO  Umbraco.Core.PluginManager - [Thread 130] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:20:58,972 [67] INFO  Umbraco.Core.PluginManager - [Thread 130] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:21:02,128 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:21:12,534 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:21:12,534 [67] INFO  Umbraco.Core.PluginManager - [Thread 132] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:22:02,753 [67] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:22:02,753 [67] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:22:11,753 [67] INFO  Umbraco.Web.Security.WebSecurity - [Thread 131] User Id: 0 logged in
+2014-08-25 14:22:26,566 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:22:36,987 [67] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 122] Content 'Forside' with Id '1059' has been published.
+2014-08-25 14:33:42,207 [67] INFO  umbraco.BusinessLogic.Log - [Thread 93] Log scrubbed.  Removed all items older than 2014-06-26 14:33:42
+2014-08-25 14:33:42,239 [67] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 93] Application shutdown. Reason: MaxRecompilationsReached
+2014-08-25 14:33:45,364 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-08-25 14:33:45,364 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2014-08-25 14:33:45,364 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-25 14:33:45,395 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 26ms)
+2014-08-25 14:33:45,426 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-25 14:33:45,426 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2014-08-25 14:33:45,426 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-08-25 14:33:45,426 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 0ms)
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 1ms)
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-25 14:33:45,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2014-08-25 14:33:45,895 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-25 14:33:45,895 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2014-08-25 14:33:45,942 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:33:45,942 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:33:45,942 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-08-25 14:33:45,942 [109] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2014-08-25 14:33:45,957 [109] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-08-25 14:33:46,036 [109] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-08-25 14:33:46,395 [109] INFO  umbraco.content - [Thread 122] Loading content from disk cache...
+2014-08-25 14:33:46,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-25 14:33:46,442 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 0ms)
+2014-08-25 14:33:46,551 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-08-25 14:33:46,551 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2014-08-25 14:33:46,786 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-25 14:33:46,786 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2014-08-25 14:33:46,848 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-25 14:33:46,848 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 0ms)
+2014-08-25 14:33:46,848 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of umbraco.interfaces.ITree
+2014-08-25 14:33:46,848 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2014-08-25 14:33:46,879 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-25 14:33:46,895 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 0ms)
+2014-08-25 14:33:47,192 [109] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - [Thread 122] A legacy GUID id was generated for property editor Umbraco.MultipleMediaPicker. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+2014-08-25 14:41:15,161 [109] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 122] Content 'Profil' with Id '1060' has been published.
+2014-08-25 14:41:15,240 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-25 14:41:15,240 [109] INFO  Umbraco.Core.PluginManager - [Thread 122] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2014-08-25 14:42:01,552 [109] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Profil' with Id '1060' has been published.
+2014-08-25 14:42:09,037 [109] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Priser' with Id '1072' has been published.
+2014-08-25 14:50:53,897 [109] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Garanti Rengøring' with Id '1054' has been published.
+2014-08-25 14:54:29,569 [109] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 110] Content 'Garanti Rengøring' with Id '1054' has been published.
+2014-08-25 14:56:26,413 [109] INFO  umbraco.BusinessLogic.Log - [Thread 110] Log scrubbed.  Removed all items older than 2014-06-26 14:56:26
+2014-08-25 14:56:26,429 [109] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 110] Application shutdown. Reason: MaxRecompilationsReached
+2014-08-25 14:56:26,866 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Determining hash of code files on disk
+2014-08-25 14:56:26,882 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Hash determined (took 15ms)
+2014-08-25 14:56:26,898 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-25 14:56:26,913 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 12ms)
+2014-08-25 14:56:26,945 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-25 14:56:26,945 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2014-08-25 14:56:26,945 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 1ms)
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 1ms)
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-25 14:56:26,960 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2014-08-25 14:56:27,413 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-25 14:56:27,413 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2014-08-25 14:56:27,445 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 14:56:27,445 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 14:56:27,445 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of umbraco.interfaces.ITree
+2014-08-25 14:56:27,445 [71] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2014-08-25 14:56:27,445 [71] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 105] Initializing Examine and binding to business logic events
+2014-08-25 14:56:27,632 [71] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 105] Adding examine event handlers for index providers: 3
+2014-08-25 14:56:28,257 [71] INFO  umbraco.content - [Thread 110] Loading content from disk cache...
+2014-08-25 14:56:28,554 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-25 14:56:28,554 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 0ms)
+2014-08-25 14:56:28,679 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-08-25 14:56:28,679 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2014-08-25 14:56:28,695 [71] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of umbraco.interfaces.ITree
+2014-08-25 14:56:28,695 [71] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2014-08-25 14:56:29,366 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-25 14:56:29,382 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2014-08-25 14:56:29,429 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-25 14:56:29,429 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 0ms)
+2014-08-25 14:56:29,429 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-25 14:56:29,429 [71] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 0ms)
+2014-08-25 14:56:29,710 [71] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - [Thread 110] A legacy GUID id was generated for property editor Umbraco.MultipleMediaPicker. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+2014-08-25 14:56:48,757 [71] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-25 14:56:48,757 [71] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 0ms)
+2014-08-25 15:00:31,476 [71] INFO  Umbraco.Core.PluginManager - [Thread 131] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-25 15:00:31,476 [71] INFO  Umbraco.Core.PluginManager - [Thread 131] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-25 15:00:42,742 [71] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 131] Content 'Profil' with Id '1060' has been published.
+2014-08-25 15:01:57,773 [71] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Kontakt OS' with Id '1072' has been published.
+2014-08-25 15:02:09,055 [71] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'Kontakt os' with Id '1072' has been published.

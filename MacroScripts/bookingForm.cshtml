@@ -1,0 +1,120 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+@* The fun starts here *@
+
+@using System.Text.RegularExpressions; @using System.Net.Mail;
+@{
+    List<string> Errors = new List<string>();
+    bool isPostBack = !String.IsNullOrEmpty(Request.Form["submitForm"]);
+
+    string eventtype = String.Empty;
+    string tidspunkt = String.Empty;
+    string postnr = String.Empty;
+    string by = String.Empty;
+    string deltagere = String.Empty;
+    string aldersgruppe = String.Empty;
+    string pris = String.Empty;
+
+    if (isPostBack)
+    {
+        HttpRequest post = HttpContext.Current.Request;
+        eventtype = post["eventtype"].Trim();
+        tidspunkt = post["tidspunkt"].Trim();
+        postnr = post["postnr"].Trim();
+        by = post["by"].Trim();
+        deltagere = post["deltagere"].Trim();
+        aldersgruppe = post["aldersgruppe"].Trim();
+        pris = post["pris"].Trim();
+
+        if (0 == 0)
+        {
+
+            if (String.IsNullOrEmpty(eventtype))
+            {
+                Errors.Add("Skriv en eventtype");
+            }
+            if (String.IsNullOrEmpty(tidspunkt))
+            {
+                Errors.Add("Skriv et tidspunkt");
+            }
+            if (String.IsNullOrEmpty(postnr))
+            {
+                Errors.Add("Skriv dit postnr");
+            }
+            if (String.IsNullOrEmpty(by))
+            {
+                Errors.Add("Skriv din by");
+            }
+            if (String.IsNullOrEmpty(deltagere))
+            {
+                Errors.Add("Skriv antal deltagere");
+            }
+            if (String.IsNullOrEmpty(aldersgruppe))
+            {
+                Errors.Add("Skriv ca aldersgruppe");
+            }
+            if (String.IsNullOrEmpty(pris))
+            {
+                Errors.Add("Skriv max pris");
+            }
+            else
+            {
+                try
+                {
+
+                    string emailAdd = "mail@mcreutzberg.dk";
+                    MailMessage m = new MailMessage();
+                    m.From = new MailAddress("mail@mcreutzberg.dk");
+                    m.To.Add(emailAdd);
+                    m.ReplyTo = new MailAddress(emailAdd);
+                    m.Subject = "CB";
+                    m.IsBodyHtml = true;
+                    m.Body = "<strong> Eventtype: </strong>" + eventtype + " <br /><strong>tidspunkt: </strong>" + tidspunkt + " <br/><strong>postnr: </strong>" + postnr + "<br /> <strong>by:</strong> " + by + "<br /><strong>deltagere</strong>" + deltagere + "<br /> <strong>aldersgruppe:</strong> " + aldersgruppe + "<br /><strong>pris</strong>" + pris;
+                    SmtpClient smtp = new SmtpClient();
+                    smtp.Host = "smtp.unoeuro.com";
+                    smtp.Port = 25; smtp.Send(m); 
+    <h3>- Deres besked er sendt.</h3>}
+                catch (SmtpException sex)
+                { <h3>Upss! - Din besked kunne ikke sendes.</h3> <p>Den følgendende fejl skyldes mail serveren. Prøv igen senere.</p> }
+                catch (Exception ex)
+                { <h3>Upss! - Din besked kunne ikke sendes.</h3> <p>Der skete desværre en uventet fejl. Prøv igen senere.</p> }
+            }
+        }
+        else
+        {  <h3 style='color: #b8b8b8;'>- Deres besked er sendt.</h3> }
+    }
+}
+@{
+    <form action="@Model.Url" method="post">
+
+        <input style="width: 100%;" value="@eventtype" id="eventtype" name="eventtype"  type="text" placeholder="EVENT TYPE" />
+        <input style="width: 100%;" type="text" value="@tidspunkt" id="tidspunkt" name="tidspunkt" placeholder="TIDSPUNKT FOR SHOW" />
+        <input style="width: 20%; margin-right: 5%; float: left;" type="text" value="@postnr" id="postnr" name="postnr" placeholder="POST NR" />
+        <input style="width: 75%; float: left;" type="text" placeholder="BY" value="@by" id="by" name="by" />
+        <input style="width: 47.5%; float: left; margin-right: 5%;" type="text" value="@deltagere" id="deltagere" name="deltagere" placeholder="ANTAL DELTAGERE" />
+        <input style="width: 47.5%; float: left;" type="text" placeholder="ALDERSGRUPPE" value="@aldersgruppe" id="aldersgruppe" name="aldersgruppe" />
+        <input style="width: 100%;" type="text" placeholder="MAX PRIS" value="@pris" id="pris" name="pris" />
+
+        <input type="submit" class="bookingButton col-md-6 col-md-offset-6 col-sm-12 col-xs-12" name="submitForm" value="Send" />
+    </form>
+			
+    if (Errors.Count > 0)
+    {
+        string errorMsg = String.Empty;
+        errorMsg = "<ul style=\"width: 100%;\" id='errorMsg'>";
+        foreach (string error in Errors) { errorMsg += "<li>" + error + "</li>"; }
+        errorMsg += "</ul>";
+    @Html.Raw(errorMsg);
+    }
+}

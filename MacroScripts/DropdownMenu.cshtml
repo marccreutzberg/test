@@ -1,0 +1,20 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@using umbraco.MacroEngines
+@{
+@*Get the root of the website *@
+var root = Model.AncestorOrSelf(1);
+var homeId = 1054;
+}
+
+<ul class="navigation">
+@{       
+    foreach (var page in root.Children.Where("Visible")){
+        
+            <li @page.IsAncestorOrSelf(Model, "class=\"active\"", "")>
+                <a @(page.id == homeId ? "href=/" : "href=" + @page.Url)>@page.Name</a>
+            </li>
+        }
+}
+</ul>
+

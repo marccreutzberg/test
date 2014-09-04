@@ -1,0 +1,100 @@
+﻿2014-08-27 09:12:33,400 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2014-08-27 09:12:33,400 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 5ms)
+2014-08-27 09:12:33,400 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-27 09:12:33,415 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 13ms)
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 0ms)
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2014-08-27 09:12:33,493 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-27 09:12:33,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 7ms)
+2014-08-27 09:12:33,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-27 09:12:33,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2014-08-27 09:12:33,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-27 09:12:33,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2014-08-27 09:12:34,087 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-27 09:12:34,087 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2014-08-27 09:12:34,118 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-27 09:12:34,118 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-27 09:12:34,134 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2014-08-27 09:12:34,134 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2014-08-27 09:12:34,134 [68] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2014-08-27 09:12:34,243 [68] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2014-08-27 09:12:34,619 [68] INFO  umbraco.content - [Thread 73] Loading content from disk cache...
+2014-08-27 09:12:34,665 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-27 09:12:34,665 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 0ms)
+2014-08-27 09:12:34,869 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-08-27 09:12:34,869 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2014-08-27 09:12:35,165 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-27 09:12:35,165 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2014-08-27 09:12:35,228 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-27 09:12:35,228 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 0ms)
+2014-08-27 09:12:35,228 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.interfaces.ITree
+2014-08-27 09:12:35,228 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2014-08-27 09:12:35,275 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-27 09:12:35,275 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 0ms)
+2014-08-27 09:12:35,556 [68] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - [Thread 73] A legacy GUID id was generated for property editor Umbraco.MultipleMediaPicker. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+2014-08-27 09:14:05,416 [68] INFO  Umbraco.Web.Security.WebSecurity - [Thread 80] User Id: 0 logged in
+2014-08-27 09:14:05,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-27 09:14:05,509 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-27 09:14:45,916 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Kontakt os' with Id '1072' has been published.
+2014-08-27 09:14:45,994 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-27 09:14:45,994 [68] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 0ms)
+2014-08-27 09:15:06,869 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content 'Kontakt os' with Id '1072' has been published.
+2014-08-27 09:36:22,856 [68] INFO  Umbraco.Web.Security.WebSecurity - [Thread 73] User Id: 0 logged in
+2014-08-27 09:36:35,653 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Kontakt os' with Id '1072' has been unpublished.
+2014-08-27 09:37:23,996 [68] INFO  Umbraco.Core.PluginManager - [Thread 78] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-27 09:37:23,996 [68] INFO  Umbraco.Core.PluginManager - [Thread 78] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-27 10:04:55,859 [68] INFO  Umbraco.Web.Security.WebSecurity - [Thread 19] User Id: 0 logged in
+2014-08-27 10:04:55,953 [68] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-27 10:04:55,953 [68] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-27 10:06:04,500 [68] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-08-27 10:06:04,500 [68] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-08-27 10:06:15,812 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Kontakt' with Id '0' has been published.
+2014-08-27 10:08:02,922 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Kontakt' with Id '1102' has been published.
+2014-08-27 10:08:10,844 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Kontakt' with Id '1102' has been published.
+2014-08-27 10:20:14,208 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Prisliste' with Id '0' has been published.
+2014-08-27 10:20:49,661 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Prisliste' with Id '1107' has been published.
+2014-08-27 10:20:49,677 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Kontakt' with Id '1102' has been published.
+2014-08-27 10:21:16,943 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Kontorrengøring' with Id '0' has been published.
+2014-08-27 10:21:31,005 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Trappevask' with Id '0' has been published.
+2014-08-27 10:21:40,724 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:21:48,990 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Måtteservice' with Id '0' has been published.
+2014-08-27 10:22:03,787 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Tæpperens' with Id '0' has been published.
+2014-08-27 10:22:18,037 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Persiennevask' with Id '0' has been published.
+2014-08-27 10:22:41,724 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Kontorrengøring' with Id '1108' has been published.
+2014-08-27 10:22:48,662 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:22:53,880 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:22:54,318 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:22:59,662 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Tæpperens' with Id '1111' has been published.
+2014-08-27 10:23:03,412 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Persiennevask' with Id '1112' has been published.
+2014-08-27 10:24:28,506 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Kontorrengøring' with Id '1108' has been published.
+2014-08-27 10:24:32,287 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:24:35,865 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:24:39,131 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Tæpperens' with Id '1111' has been published.
+2014-08-27 10:24:43,678 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Persiennevask' with Id '1112' has been published.
+2014-08-27 10:41:23,148 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Kontorrengøring' with Id '1108' has been published.
+2014-08-27 10:41:30,195 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:41:35,039 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:41:40,445 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Tæpperens' with Id '1111' has been published.
+2014-08-27 10:42:38,914 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Persiennevask' with Id '1112' has been published.
+2014-08-27 10:43:09,305 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Kontorrengøring' with Id '1108' has been published.
+2014-08-27 10:43:11,930 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:43:14,070 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:43:16,523 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Tæpperens' with Id '1111' has been published.
+2014-08-27 10:43:18,867 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Persiennevask' with Id '1112' has been published.
+2014-08-27 10:45:09,196 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:45:27,102 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:45:37,336 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:45:42,649 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Tæpperens' with Id '1111' has been published.
+2014-08-27 10:45:47,696 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Persiennevask' with Id '1112' has been published.
+2014-08-27 10:45:52,446 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Kontorrengøring' with Id '1108' has been published.
+2014-08-27 10:50:51,134 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Kontorrengøring' with Id '1108' has been published.
+2014-08-27 10:50:59,884 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Trappevask' with Id '1109' has been published.
+2014-08-27 10:51:08,602 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Måtteservice' with Id '1110' has been published.
+2014-08-27 10:51:15,228 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Tæpperens' with Id '1111' has been published.
+2014-08-27 10:51:20,978 [68] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Persiennevask' with Id '1112' has been published.
+2014-08-27 16:06:16,858 [68] INFO  umbraco.BusinessLogic.Log - [Thread 59] Log scrubbed.  Removed all items older than 2014-06-28 16:06:16
+2014-08-27 16:06:16,889 [68] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 59] Application shutdown. Reason: HostingEnvironment
