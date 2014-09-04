@@ -1,0 +1,57 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+
+
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <title>@Model.Content.Name</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+        <link href="/css/bootstrap.css" rel="stylesheet" />
+        <link href="/css/all.css" rel="stylesheet" />
+        <link href="/css/flexslider.css" rel="stylesheet" />
+        <script src="http://osvaldas.info/examples/drop-down-navigation-touch-friendly-and-responsive/doubletaptogo.js"></script>
+
+        <script>$(function (e) { e(function () { e("#nav li:has(ul)").doubleTapToGo() }); $('.hideOnload').show(); })</script>
+        @RenderSection("head", false)
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                 
+                        <a href="/">
+                            @Umbraco.RenderMacro("GetLogo")
+                        </a>
+                        <nav id="nav" class="col-md-8 col-sm-12 col-xs-12">
+
+                            @Umbraco.RenderMacro("DropdownMenu")
+
+                        </nav>
+                    </div>
+       
+            </div>
+        </header>
+        @RenderSection("content", false)
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img style="margin-top: 15px; float: left;" src="/gfx/maps.jpg" /></a>
+                        <div class="footerInformation">
+                            @Umbraco.Field("footerText", recursive: true)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    </html>
+}

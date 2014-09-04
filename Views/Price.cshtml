@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+@section head{
+}
+
+@section content{
+     <div class="container">
+            <div class="col-md-12 subpage">
+                <div class="row">
+                    @Umbraco.RenderMacro("GetProduct")
+				</div>
+        </div>
+	 </div>
+}
